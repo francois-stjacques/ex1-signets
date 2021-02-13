@@ -1,5 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Page from './Page';
 
 function App() {
   return (
@@ -23,3 +26,13 @@ function App() {
 }
 
 export default App;
+
+// import './App.scss';
+
+// export default function App() {
+//   return (
+//     <div className="App">
+//         Gabarit de base d'une Application React
+//     </div>
+//   );
+// }
