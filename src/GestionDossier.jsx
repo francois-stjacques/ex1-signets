@@ -11,7 +11,6 @@ function GestionDossier(props) {
                     <Dossier
                     key={dsr.id}
                     id={dsr.id}
-                    objetCadre={props.objetCadre}
                     titre={dsr.titre}
                     couleur={dsr.couleur}
                     date={dsr.date}
