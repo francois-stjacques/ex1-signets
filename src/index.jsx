@@ -6,5 +6,6 @@ import Page from './Page';
 ReactDOM.render(
     <React.StrictMode>
         <Page />
-    </React.StrictMode>
-)
+    </React.StrictMode>,
+    document.getElementById('racine')
+);

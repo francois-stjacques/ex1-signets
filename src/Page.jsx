@@ -1,17 +1,19 @@
 import './Page.scss';
 // import Entete from './Entete';
 // import PiedPage from './PiedPage';
-import GestionDossier from './GestionDossier';
 // import Cadriciels from './Cadriciels';
-// import {useState} from 'react';
+import GestionDossier from './GestionDossier';
+import {useState} from 'react';
 
 export default function Page() {
+
+    const objetCadre = useState({});
 
     return (
         <div className="Page">
         {/* <Entete> */}
             <section className="ctnPrincipal">
-                <GestionDossier />
+                <GestionDossier objetCadre={objetCadre}/>
             </section>
         {/* <PiedPage> */}
     </div>
